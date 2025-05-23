@@ -4,32 +4,25 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+    <main style={{ fontFamily: "sans-serif", maxWidth: "40rem", margin: "3rem auto" }}>
+      <h1>Welcome to Yukajii 👋</h1>
+      <p>
+        This is my playground for coding experiments, side-projects, and write-ups.
+        Grab a ☕ and explore!
       </p>
-    </>
-  )
+
+      <h2>📬 Newsletter</h2>
+      <p>
+        I send occasional emails with new experiments, articles, and open-source drops.
+      </p>
+      <p>
+        <a href="/newsletter" style={{ fontWeight: 600 }}>
+          → Go to the Newsletter page
+        </a>
+      </p>
+    </main>
+  );
 }
 
-export default App
+export default App;
