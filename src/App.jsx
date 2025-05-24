@@ -9,7 +9,7 @@ function App() {
       <h1>Welcome to Yukajii 👋</h1>
         <p>
           <a
-            href="https://buttondown.email/yukajii"  // change handle if needed
+            href="https://buttondown.email/daily-mt-picks"  // change handle if needed
             style={{
               display:"inline-block",
               background:"#1d4ed8",
