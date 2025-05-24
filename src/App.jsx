@@ -7,20 +7,23 @@ function App() {
   return (
     <main style={{ fontFamily: "sans-serif", maxWidth: "40rem", margin: "3rem auto" }}>
       <h1>Welcome to Yukajii 👋</h1>
-      <p>
-        This is my playground for coding experiments, side-projects, and write-ups.
-        Grab a ☕ and explore!
-      </p>
+        <p>
+          <a
+            href="https://buttondown.email/daily-mt-picks"   // change handle
+            style={{
+              display:"inline-block",
+              background:"#ffbf00",
+              color:"#000",
+              padding:"10px 18px",
+              borderRadius:"8px",
+              fontWeight:600,
+              textDecoration:"none"
+            }}
+          >
+            📬 Subscribe&nbsp;to&nbsp;MT-5&nbsp;Daily
+          </a>
+        </p>
 
-      <h2>📬 Newsletter</h2>
-      <p>
-        I send occasional emails with new experiments, articles, and open-source drops.
-      </p>
-      <p>
-        <a href="/newsletter" style={{ fontWeight: 600 }}>
-          → Go to the Newsletter page
-        </a>
-      </p>
     </main>
   );
 }
