@@ -9,20 +9,21 @@ function App() {
       <h1>Welcome to Yukajii 👋</h1>
         <p>
           <a
-            href="https://buttondown.email/daily-mt-picks"   // change handle
+            href="https://buttondown.email/yukajii"  // change handle if needed
             style={{
               display:"inline-block",
-              background:"#ffbf00",
-              color:"#000",
+              background:"#1d4ed8",
+              color:"#fff",
               padding:"10px 18px",
               borderRadius:"8px",
               fontWeight:600,
               textDecoration:"none"
             }}
           >
-            📬 Subscribe&nbsp;to&nbsp;MT-5&nbsp;Daily
+            📬 Subscribe to Daily MT Picks
           </a>
         </p>
+
 
     </main>
   );
